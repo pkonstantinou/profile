@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
 body {
-  background-color: rgb(241, 245, 247);
+  background-color: rgb(18, 29, 36);
   font-family: "Open-Sans", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 160%;
-  color: rgb(74, 77, 85);
+  color: rgba(255, 255, 255, 0.616);
 }
 
 * {
@@ -16,7 +16,7 @@ body {
 
 h1,
 h2 {
-  color: rgb(43, 102, 129);
+  color: white;
   font-family: "Poppins";
 }
 
@@ -36,10 +36,11 @@ h2 {
 }
 
 .card-white {
-  background-color: white;
+  background-color: rgb(23, 37, 46);
   margin: 30px 0;
   padding: 40px;
-  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
   box-shadow: 0px 10px 30px rbga(0, 0, 0, 0.1);
 }
 
@@ -68,7 +69,7 @@ h2 {
 .btn-primary {
   text-decoration: none;
   color: white;
-  background-color: rgb(156, 148, 40);
+  background-color: rgba(156, 148, 40, 0.6);
   font-size: 1rem;
   font-weight: 700;
   padding: 8px 15px;
@@ -78,18 +79,18 @@ h2 {
 }
 
 .btn-primary:hover {
-  background-color: rgb(117, 112, 38);
+  background-color: rgb(117, 112, 38, 0.6);
 }
 
 .icon-primary {
   text-decoration: none;
-  font-size: 3rem;
-  color: rgb(171, 200, 214);
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.5);
   transition: all 0.2s ease;
 }
 
 .icon-primary:hover {
-  color: rgb(43, 102, 129);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .card-white .img-circle {
